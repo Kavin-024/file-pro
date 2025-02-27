@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Car Service Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .service-overview {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .service-overview p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .our-services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 40px);
+            text-align: center;
+        }
+
+        .service-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .why-choose-us {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .why-choose-us ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why-choose-us li {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .why-choose-us li::before {
+            content: "✔";
+            color: #28a745;
+            margin-right: 10px;
+        }
+
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .testimonial-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(50% - 40px);
+        }
+
+        .testimonial-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .testimonial-card h4 {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .cta {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .cta h2 {
+            color: #fff;
+            border-bottom: none;
+            margin: 0 0 20px;
+        }
+
+        .cta button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Expert car care services to keep your vehicle running smoothly.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="service-overview">
+            <h2>Service Overview</h2>
+            <p>
+                At Car Service Company, we provide a wide range of automotive services to meet all your vehicle's needs. From routine maintenance to major repairs, our team of certified technicians is here to ensure your car stays in top condition.
+            </p>
+        </section>
+
+        <section class="our-services">
+            <div class="service-card">
+                <h3>Oil Change</h3>
+                <p>Keep your engine running smoothly with our quick and reliable oil change service.</p>
+            </div>
+            <div class="service-card">
+                <h3>Tire Rotation</h3>
+                <p>Extend the life of your tires with our professional tire rotation service.</p>
+            </div>
+            <div class="service-card">
+                <h3>Brake Repair</h3>
+                <p>Ensure your safety with our expert brake inspection and repair services.</p>
+            </div>
+            <div class="service-card">
+                <h3>Engine Diagnostic</h3>
+                <p>Identify and fix engine issues with our advanced diagnostic tools.</p>
+            </div>
+            <div class="service-card">
+                <h3>Battery Replacement</h3>
+                <p>Get your car started with our reliable battery replacement service.</p>
+            </div>
+            <div class="service-card">
+                <h3>Car Wash</h3>
+                <p>Keep your car looking brand new with our premium car wash service.</p>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Certified and experienced technicians</li>
+                <li>Affordable and transparent pricing</li>
+                <li>High-quality parts and tools</li>
+                <li>Customer satisfaction guaranteed</li>
+                <li>Convenient scheduling options</li>
+            </ul>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonial-card">
+                <p>"The best car service I've ever experienced! Highly recommend their oil change service."</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Friendly staff and quick service. My car feels brand new after their brake repair."</p>
+                <h4>- Jane Smith</h4>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Schedule Your Service Today!</h2>
+            <button>Book Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Car Service Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,1284 @@
+.div1 {
+    border: 1px lightgray;
+    background-color: lightgray;
+    height: 70px;
+
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+
+}
+
+.img1 {
+    position: absolute;
+    left: 40px;
+    top: 18px;
+}
+
+.addr {
+    color: gray;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.img2 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.addr2 {
+    color: gray;
+    position: absolute;
+    left: 340px;
+    top: 10px;
+}
+
+.phone {
+    position: absolute;
+    left: 840px;
+    top: 20px;
+}
+
+.num {
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    position: absolute;
+    left: 885px;
+    top: 10px;
+}
+
+.logo {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+
+}
+
+.logoz {
+    display: inline;
+    padding: 10px;
+}
+
+.li1 {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.ul1 {
+    position: absolute;
+    right: 300px;
+    top: 60px;
+}
+
+.al {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.al:hover {
+    color: red;
+}
+
+.car {
+    position: absolute;
+    left: 50px;
+    top: 75px;
+}
+
+.btn {
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: red;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.carserv {
+    color: red;
+    position: absolute;
+    left: 130px;
+    top: 70px;
+}
+
+.slider {
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+.mySlides {
+    display: none;
+    position: relative;
+}
+
+.mySlides::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 100%, transparent);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.imgz {
+    vertical-align: middle;
+    height: 600px;
+    ;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 5;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    width: 100%;
+
+    z-index: 3;
+}
+
+.textz {
+    color: #f2f2f2;
+    font-size: 50px;
+    padding-left: 120px;
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    text-align: left;
+    z-index: 3;
+}
+
+.aboutbtnz {
+    position: absolute;
+    top: 410px;
+    left: 130px;
+    padding: 10px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: red;
+    z-index: 5;
+}
+
+.aboutbtnz:hover {
+    background-color: darkred;
+}
+
+.simple {
+    border: 1px white;
+    width: 350px;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 50px;
+    position: absolute;
+    top: 820px;
+    left: 30px;
+}
+
+.lor {
+    width: 280px;
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.iconic {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 30px;
+}
+
+.simplef {
+    border: 1px white;
+    width: 350px;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 50px;
+    position: absolute;
+    top: 820px;
+    left: 475px;
+}
+
+.simples {
+    border: 1px white;
+    width: 350px;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 50px;
+    position: absolute;
+    top: 820px;
+    left: 920px;
+}
+
+.aboutbtn {
+
+    padding: 10px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: red;
+}
+
+.aboutbtn:hover {
+    background-color: darkred;
+}
+
+.about-lore {
+    color: #756278;
+}
+
+.about {
+    position: absolute;
+    top: 1100px;
+    right: 100px;
+    z-index: 1;
+}
+
+.abs-img {
+    height: 560px;
+    width: 550px;
+    position: absolute;
+    left: 30px;
+    top: 1100px;
+}
+
+.luxury {
+    position: absolute;
+    top: 1700px;
+    z-index: 1;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.luxury::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    z-index: 1;
+}
+
+.luxury img.luxdiv {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.opa {
+    color: #ffffff;
+    border: 1px white;
+    width: 200px;
+    height: 180px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    top: 1080px;
+    left: 400px;
+    z-index: 2;
+}
+
+.years {
+    color: rgb(249, 248, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 1130px;
+    left: 450px;
+    z-index: 3;
+}
+
+.after-about {
+
+    text-decoration: none;
+    border: 1px red;
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    position: relative;
+    bottom: 1500px;
+    left: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.after-about-second {
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    padding-right: 93px;
+    padding-left: 90px;
+    position: relative;
+    bottom: 1415px;
+    left: 100px;
+
+}
+
+.after-about-third {
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    padding-right: 93px;
+    padding-left: 85px;
+    position: relative;
+    bottom: 1320px;
+    left: 100px;
+
+}
+
+.after-about-fourth {
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    padding-right: 100px;
+    padding-left: 115px;
+    position: relative;
+    bottom: 1225px;
+    left: 100px;
+
+}
+
+.imp {
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+
+}
+
+.after-about:hover {
+    background-color: red;
+}
+
+.after-about-second:hover {
+    background-color: red;
+}
+
+.after-about-third:hover {
+    background-color: red;
+}
+
+.after-about-fourth:hover {
+    background-color: red;
+}
+
+.luxury {
+    position: relative;
+    bottom: 1600px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.luxury::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.luxury img.luxdiv {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.pngnew {
+    height: 50px;
+    width: 50px;
+    padding: 130px;
+
+
+}
+
+.pngnewalign {
+    position: absolute;
+    top: 1650px;
+    padding-left: 30px;
+    z-index: 2;
+}
+
+.numbers {
+    color: rgb(247, 246, 246);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    transition: 2s;
+
+    position: absolute;
+    top: 1840px;
+    left: 10px;
+    padding-left: 20px;
+    justify-content: space-evenly;
+    z-index: 3;
+
+}
+
+.counter-container {
+
+    display: inline;
+    padding: 120px;
+
+    color: rgb(255, 255, 255);
+    z-index: 5;
+}
+
+.temp-about {
+    position: absolute;
+    top: 1890px;
+    left: 50px;
+    z-index: 3;
+    padding-left: 30px;
+}
+
+.temp-text {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    padding: 60px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.after-temp {
+
+    position: absolute;
+    top: 2000px;
+    text-align: center;
+    left: 400px;
+
+
+}
+
+.after-temp-head {
+    color: #0b2154;
+    font-size: 60px;
+}
+
+.after-about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 170px;
+    text-decoration: none;
+    border: 1px red;
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    position: absolute;
+    top: 2350px;
+    padding-left: 100px;
+    padding-right: 60px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #0b2154;
+
+}
+
+.after-about-second {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 170px;
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+    color: black;
+    padding-right: 60px;
+    padding-left: 100px;
+    position: absolute;
+    top: 2490px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: #0b2154;
+
+}
+
+.after-about-third {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0b2154;
+
+    width: 170px;
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+
+    padding-right: 60px;
+    padding-left: 100px;
+    position: absolute;
+    top: 2630px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.after-about-fourth {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0b2154;
+    text-decoration: none;
+    border: 1px rgb(134, 129, 129);
+    background-color: rgb(134, 129, 129);
+    padding: 30px;
+
+    padding-right: 100px;
+    padding-left: 115px;
+    position: absolute;
+    top: 2775px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+
+}
+
+.diff1 {
+    display: inline;
+    padding: 5px;
+    position: absolute;
+    top: 2430px;
+    right: 400px;
+}
+
+
+.diff2 {
+
+    padding: 19px;
+
+    color: #5a6378;
+    font-weight: bolder;
+}
+
+.hifi {
+    display: inline;
+    position: absolute;
+    top: 2400px;
+    right: 200px;
+}
+
+
+.aboutbtn1 {
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 23px;
+    background-color: red;
+    position: absolute;
+    top: 2654px;
+    right: 240px;
+}
+
+.aboutbtn1:hover {
+    background-color: darkred;
+}
+
+.diffimg {
+    position: absolute;
+    top: 2208px;
+    left: 430px;
+    height: 500px;
+    width: 400px;
+}
+
+/* .redbg {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 2760px;
+} */
+
+
+.redtxt {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2850px;
+    left: 120px;
+
+}
+
+.redtab {
+
+    border: 1px #d91424;
+    background-color: #d91424;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 2760px;
+    left: 800px;
+}
+
+.input1 {
+    padding: 15px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+.redtabbtn {
+    width: 435px;
+    height: 50px;
+    background-color: #0b2154;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 28px;
+    position: relative;
+    bottom: 30px;
+}
+
+.redtabbtn:hover {
+    background-color: darkblue;
+}
+
+.team {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 3550px;
+    left: 50px;
+    border: 1px white;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 90px;
+    margin-right: 80px;
+}
+
+.team2 {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 3550px;
+    left: 380px;
+    border: 1px white;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 90px;
+    margin-right: 80px;
+}
+
+.team3 {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 3550px;
+    left: 720px;
+    border: 1px white;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 90px;
+    margin-right: 80px;
+}
+
+.team4 {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    top: 3550px;
+    left: 1050px;
+    border: 1px white;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 90px;
+    margin-right: 80px;
+}
+
+.techtxt {
+    position: absolute;
+    top: 3740px;
+    left: 60px;
+    display: inline-block;
+    padding: 60px;
+
+    padding-right: 160px;
+}
+
+.techtxt2 {
+    position: absolute;
+    top: 3740px;
+    left: 400px;
+    display: inline-block;
+    padding: 60px;
+
+    padding-right: 160px;
+}
+
+.techtxt3 {
+    position: absolute;
+    top: 3740px;
+    left: 730px;
+    display: inline-block;
+    padding: 60px;
+
+    padding-right: 160px;
+}
+
+.techtxt4 {
+    position: absolute;
+    top: 3740px;
+    left: 1060px;
+    display: inline-block;
+    padding: 60px;
+
+    padding-right: 160px;
+}
+
+.profile {
+    color: #5a6378;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4150px;
+    padding: 40px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.profile2 {
+    color: #5a6378;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4150px;
+    left: 330px;
+    padding: 40px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.profile3 {
+    color: #5a6378;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4150px;
+    left: 650px;
+    padding: 40px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.profile4 {
+    color: #5a6378;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4150px;
+    left: 970px;
+    padding: 40px;
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.profile-img {
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #716e6e;
+    border-radius: 50%;
+}
+
+.after-temp2 {
+
+    position: absolute;
+    top: 3950px;
+    text-align: center;
+    left: 480px;
+
+
+
+}
+
+.after-temp-head2 {
+    color: #0b2154;
+    font-size: 60px;
+}
+
+/* .last-img {
+    height: 400px;
+    width: 100%;
+   
+}
+
+
+.last {
+    color: #5a6378;
+    position: absolute;
+    top: 4600px;
+    opacity: 0.8;
+    width: 100%;
+} */
+.alter {
+    position: absolute;
+    top: 4680px;
+}
+
+.last-head {
+    color: #ffffff;
+    display: inline;
+    padding: 100px;
+
+}
+
+.img-last {
+    padding: 6px;
+    height: 30px;
+    width: 30px;
+}
+
+.last-par {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 4730px;
+    left: 60px;
+
+}
+
+.altpad {
+    padding-bottom: 3px;
+}
+
+.alt-img {
+    padding-top: 10px;
+}
+
+.para-temp {
+    z-index: 2;
+    display: inline;
+    padding: 83px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+.pend {
+    position: absolute;
+    top: 4710px;
+    color: white;
+    left: 400px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pend2 {
+    position: absolute;
+    top: 4805px;
+    color: white;
+    left: 400px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.end-list {
+    position: absolute;
+    top: 4690px;
+    left: 710px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.end-line {
+    padding: 13px;
+}
+
+.end-line:hover {
+    font-size: 20px;
+}
+
+.input5 {
+    padding: 20px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 30px;
+    position: absolute;
+    top: 4790px;
+    right: 100px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.end-btn {
+    padding: 10px;
+    position: absolute;
+    right: 120px;
+    top: 4863px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: red;
+}
+
+.end-end {
+    margin-top: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 70px;
+    top: 4730px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+.anime {
+    animation-name: anime;
+    animation-duration: 1.5s;
+}
+
+@keyframes anime {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 20;
+    }
+}
+
+.bod {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 140, 186, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons span {
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.icons span:hover {
+    color: #ffcc00;
+}
+
+.bord {
+    border: 1px white;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    padding: 3px;
+    border-radius: 20%;
+
+}
+
+.rel {
+    position: absolute;
+    top: 3360px;
+}
+
+.ani {
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ani {
+    from {
+        height: 0;
+        width: 0;
+    }
+
+    to {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+.tra {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 5;
+
+}
+
+.redbgf {
+    position: absolute;
+    top: 2760px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.redbgf::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, black, black 100%);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.redbgf img.redbg {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+
+.last {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 4600px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.last::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, black, black 100%);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.last img.last-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.pop {
+    animation-name: pop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pop {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+.popup {
+    width: 800px;
+    font-size: 40px;
+}
+
+/* .small {
+    width: 500px;
+    font-weight: bolder;
+} */
+/* .blink {
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes blink {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+} */
+.blink {
+    opacity: 0;
+    font-size: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: opacity 2s ease-in-out, font-size 2s ease-in-out;
+}
+
+.blink.animate {
+    opacity: 1;
+    font-size: 15px;
+}
+
+.small {
+    width: 500px;
+    font-weight: bolder;
+}
